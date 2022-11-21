@@ -1,0 +1,31 @@
+{
+  "name": "aqa-final-project",
+  "version": "1.0.0",
+  "description": "AQA playwright project",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NikitaKirpichev/aqa-playwright-final-project.git"
+  },
+  "keywords": [
+    "AQA",
+    "TypeScript",
+    "JavaScript",
+    "Playwright",
+    "Page",
+    "object",
+    "model",
+    "Jenkins",
+    "Docker"
+  ],
+  "author": "Nikita Kirpichev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NikitaKirpichev/aqa-playwright-final-project/issues"
+  },
+  "homepage": "https://github.com/NikitaKirpichev/aqa-playwright-final-project#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.28.0"
+  }
+}
