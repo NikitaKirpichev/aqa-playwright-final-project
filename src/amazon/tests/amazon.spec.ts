@@ -2,6 +2,7 @@ import { test } from "@playwright/test";
 import { HomePage } from "../pages/home.page";
 import { SearchPage } from "../pages/search.page";
 import { ProductPage } from "../pages/product.page";
+import { EMAIL, PASSWORD } from "../constants/login-credentials.const"
 
 test("Successful authorization", async({page, baseURL}) => {
 
@@ -9,7 +10,7 @@ test("Successful authorization", async({page, baseURL}) => {
 
     await page.goto("https://www.amazon.com/");
 
-    await login.signIn('nalkire17@gmail.com', '(&6h:qhmB9nuWcr');
+    await login.signIn(EMAIL, PASSWORD);
 
 })
 
