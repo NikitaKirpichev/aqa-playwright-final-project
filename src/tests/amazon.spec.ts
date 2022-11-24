@@ -1,8 +1,8 @@
 import { test } from "@playwright/test";
-import { HomePage } from "../pages/home.page";
-import { SearchPage } from "../pages/search.page";
-import { ProductPage } from "../pages/product.page";
-import { EMAIL, PASSWORD } from "../constants/login-credentials.const"
+import { HomePage } from "../pages/amazon/home.page";
+import { SearchPage } from "../pages/amazon/search.page";
+import { ProductPage } from "../pages/amazon/product.page";
+import { EMAIL, PASSWORD } from "../constants/amazon-credentials.const"
 
 test("Successful authorization", async({page, baseURL}) => {
 

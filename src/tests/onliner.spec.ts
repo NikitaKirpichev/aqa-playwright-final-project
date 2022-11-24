@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { HomePage } from "../pages/home.page";
+import { HomePage } from "../pages/onliner/home.page";
 
 const productName = 'Смартфон Samsung Galaxy A52 SM-A525F/DS 4GB/128GB (черный)';
 
