@@ -2,4 +2,5 @@ node_modules/
 /test-results/
 /playwright-report/
 /playwright/.cache/
-/src/constants
+/src/constants/amazon-credentials.const.ts
+/src/constants/vk-token.const.ts
