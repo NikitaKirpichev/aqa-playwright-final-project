@@ -1,0 +1,1 @@
+export const PRODUCT_NAME = 'Смартфон Samsung Galaxy A52 SM-A525F/DS 4GB/128GB (черный)'
