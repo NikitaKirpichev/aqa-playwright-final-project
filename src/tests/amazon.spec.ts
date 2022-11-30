@@ -22,7 +22,7 @@ test.describe("Search, add to cart product", () => {
         
         await page.goto("https://www.amazon.com/");
     
-        await login.signIn('nalkire17@gmail.com', '(&6h:qhmB9nuWcr');
+        await login.signIn(EMAIL, PASSWORD);
     });
 
     test("Search product", async({page, baseURL}) => {
@@ -31,7 +31,7 @@ test.describe("Search, add to cart product", () => {
 
         await page.goto("https://www.amazon.com/");
         
-        await search.searchProduct('lenovo');
+        await search.searchProduct('Lenovo Flex 5i - 14.0');
 
     })
 
@@ -43,7 +43,7 @@ test.describe("Search, add to cart product", () => {
 
         await page.goto("https://www.amazon.com/");
         
-        await search.searchProduct('lenovo');
+        await search.searchProduct('Lenovo Flex 5i - 14.0');
 
         await productPage.addToCart();
 
@@ -52,7 +52,7 @@ test.describe("Search, add to cart product", () => {
 
     test("Added product is displayed in the cart", async({page, baseURL}) => {
         
-        const cart = new HomePage(page);
+        const cart = new HomePage(page);    
         
         await page.goto("https://www.amazon.com/");
 

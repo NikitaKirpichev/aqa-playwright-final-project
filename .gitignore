@@ -5,3 +5,5 @@ node_modules/
 /src/constants/amazon-credentials.const.ts
 /src/constants/vk-token.const.ts
 /src/tests/google-translate.spec.ts-snapshots
+/allure-results
+/allure-report

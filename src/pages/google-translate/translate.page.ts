@@ -24,7 +24,7 @@ export default class HomePage{
     }
 
     async chooseSourceTextLanguage(){
-        await this.sourceLanguageTextArea.click({delay: 2000});
+        await this.sourceLanguageTextArea.click({delay: 3000});
     }
 
 
@@ -34,7 +34,7 @@ export default class HomePage{
     }
 
     async chooseResultTextLanguage(){
-        await this.resultLanguageTextArea.click({delay: 2000});
+        await this.resultLanguageTextArea.click({delay: 3000});
     }
 
 

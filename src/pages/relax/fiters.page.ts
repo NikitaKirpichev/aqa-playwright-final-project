@@ -21,7 +21,7 @@ export class FiltersPage{
         this.categoriesMenu = page.locator('div:nth-child(2) > div.List.CategoriesSubMenu__list.List--small > div:nth-child(1) > a');
         this.openFiltersButton = page.locator('.MenuItem--button');
         this.filterContent = page.locator('div.FilterSidebar__content');
-        this.regionArea = page.locator('div.FilterSidebar__content > div:nth-child(2)');
+        this.regionArea = page.locator('xpath = //*[@id="root"]/div/div[11]/div[2]/div[2]/div[2]');
         this.regionAreaRatio = page.locator('div.Modal__body > div > div:nth-child(2)');
         this.takeawayFoodToggle = page.locator('div:nth-child(3) > label > span.ToggleSwitch > span.ToggleSwitch__slider');
         this.kitchenMenuExpandButton = page.locator('div:nth-child(8) > div.CompositeButtons__wrapper > div.CompositeButtons__toggle');

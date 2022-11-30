@@ -53,6 +53,7 @@ export class LunaRestoPage{
 
     async clickWorkingHoursButton(){
         await this.workingHoursButton.click();
+        await expect(this.page.locator('css=[class="Popup ContactsPopup ContactsPopup--hasFooter ContactsPopup--openingIsVisible"]')).toBeVisible();
     }
 
     async checkWorkingHours(){

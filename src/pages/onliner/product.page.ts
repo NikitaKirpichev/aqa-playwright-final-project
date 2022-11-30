@@ -13,7 +13,7 @@ export class ProductPage{
         this.productPageTitle = page.locator('css=[class="catalog-masthead__title js-nav-header"]');
         this.descriptionArea = page.locator('.offers-description');
         this.addToCartButton = page.locator('.product-aside__button_cart');
-        this.cartButton = page.locator('a.button-style.button-style_another.button-style_base-alter.product-recommended__button');
+        this.cartButton = page.locator('xpath = //*[@id="userbar"]/div[2]/div/a');
     }
 
     async checkSuccsesSearch(){
@@ -28,7 +28,7 @@ export class ProductPage{
         await this.addToCartButton.first().click();
     }
 
-    async naviagateToCartPage(){
+    async naviagateToCartPage(){    
         await this.cartButton.click();
     }
 
