@@ -41,11 +41,14 @@ To run VK tests, you need to create a file vk-token.const.ts in src/constants, w
 export const ACCESS_TOKEN = 'example' //replace "exapmle" by yours VK token, that has access to the wall
 ```
 ## Screenshots
-Playwright report: 
-![image](https://sun9-27.userapi.com/impg/TsX4mhr6ArqJwaRG3lFa2r0wxzqsmGsBXvlbOA/z5pL_7IP2fs.jpg?size=546x750&quality=96&sign=2fc3b999058bb315ac2eb250c73f7c22&type=album)
+
+Playwright report (running tests locally):
+![image](https://sun9-19.userapi.com/impg/jEVdhqbw__4Sh3twDF3Tt-EVoM6dvOvTewnhgQ/drxITmIrMmI.jpg?size=1670x862&quality=96&sign=e17788afdd86a521ece00e2a8c5b1b1e&type=album)
 
 Allure report in Docker:
 ![image](https://sun9-23.userapi.com/impg/nu2H00yOEwdBVPLTI0iNL1HSPEm_LfaAcGDhOg/vgS67uR7PrI.jpg?size=1467x861&quality=96&sign=aee9b9172249e05f51079975db95f3b7&type=album)
+
+
 
 ## Contact
 Created by [Nikita Kirpichev](mailto:nalkire17@gmail.com) - feel free to contact me!
