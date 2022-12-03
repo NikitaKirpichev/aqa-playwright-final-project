@@ -19,6 +19,9 @@ List the ready features here:
 To run this project, install it locally using npm:
 ```
 $ npm install
+```
+To run this project:
+```
 $ npx playwright test --project=chromium --workers=1
 ```
 Open allure reports:  
